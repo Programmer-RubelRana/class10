@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+}
+img{
+  vertical-align: middle;
+}
+ul,li{
+  list-style: none;
+}
+/* common css */
+/* menu start*/
+.main_menu{
+height: 60px;  
+background: purple;
+}
+.main_menu ul li{
+  float: left;
+}
+.main_menu ul li a{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: cursive;
+  padding: 0 20px;
+  line-height: 60px;
+  text-align: center;
+}
+/* menu end*/
+/*banner start*/
+.banner{
+  background: url(./profile.jpeg);
+  height: 1800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner h1{
+  color: orange;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.banner h2{
+  color: red;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: monospace;
+  text-transform: uppercase;
+  text-align: center;
+}
+.banner p{
+  color: blueviolet;
+  font-size: 20px
+  text-transform:lowercase;
+  text-align: center;
+}
+.banner button{
+  color: green;
+  background: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: cursive;
+  text-transform: uppercase;
+  transition: all linear .5s;
+ padding-top: 10px;
+}
+.banner button:hover{
+color: red; 
+
+}
+/*banner end*/
